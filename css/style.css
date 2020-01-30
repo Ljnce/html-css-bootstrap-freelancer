@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #2c3e50;
+}
+
+.start{
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.navigation{
+    color:white;
+}
+
+header{
+    background-color: #1abc9c;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 150px;
+}
+
+.smile{
+    width: 20%
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 10;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+
+.portfolio{
+    background-color: white;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 70px;
+    color: #2c3e50;
+}
+
+.image{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.part-top{
+    padding-top: 20px;
+}
+
+.part-bottom{
+    padding-bottom: 200px;
+    transform: translateY(-80px);
+}
+
+.part-about{
+    background-color: #1abc9c;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+
+}
+
+.about-text{
+    color:white;
+    font-size: 30px;
+}
+
+.free-download{
+    padding-bottom: 200px;
+}
+
+.download{
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+}
+
+.download, .icon{
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    color:#6c757d;
+    font-size: 30px;
+}
+
+.info-bottom{
+    background-color: #2c3e50;
+    color: white;
+}
+
+h4, h6{
+    font-size: 25px;
+}
+
+i{
+    font-size: 40px;
+}
