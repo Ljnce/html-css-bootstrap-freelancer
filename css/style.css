@@ -34,6 +34,9 @@ li:nth-child(2+1){
     float: right;
 }
 
+ul.navbar-nav{
+    float: right;
+}
 
 /* JUMBOTRONE */
 #jumbotrone{
