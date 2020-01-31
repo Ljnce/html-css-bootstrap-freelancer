@@ -7,13 +7,14 @@
 
 header{
     position: fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
     z-index: 10;
+    width: 100%;
 }
 
+.title-up{
+    font-size: 20px;
+
+}
 .start{
     color:white;
     font-size:30px;
@@ -114,13 +115,14 @@ section, form{
 
 h2{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 20px;
     color: #2c3e50;
 }
 
 .image{
     width: 95%;
     border-radius: 30px;
+    padding-bottom: 20px;
 }
 
 .half-part{
@@ -132,7 +134,7 @@ h2{
 
 .about{
     font-weight: bold;
-    font-size: 90px;
+    font-size: 20px;
     color: white;
 
 }
@@ -143,12 +145,13 @@ h2{
 }
 
 .free-download{
-    padding-bottom: 200px;
+    padding-bottom: 50px;
+    padding-top: 60px;
 }
 
 .button{
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #1abc9c;
     color: white;
     padding: 20px;
     border: 3px solid white;
@@ -159,40 +162,61 @@ h2{
     background-color: white;
 }
 
-/* .download{
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: #1abc9c;
-    color: white;
-    padding: 10px;
-} */
+
 
 .download, .icon{
     display: inline-block;
     text-align: center;
 }
 
+/* INFO TOP */
+
 li{
     color:#6c757d;
     font-size: 30px;
 }
+
+.btn-lg{
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* INFO BOTTOM*/
 
 .info-bottom{
     background-color: #2c3e50;
     color: white;
 }
 
+
 h4, h6{
     font-size: 23px;
 }
 
-i{
-    font-size: 30px;
+.btn-social{
+    font-size: 40px;
+    background-color: #2c3e50;;
+    color: white;
+    border-radius: 100px;
+    border: 2px solid white;
 }
 
-.start-bootstrap{
+.btn-social:hover{
+    background-color: white;
+
+}
+
+.Start-Bootstrap{
     color:#1abc9c;
 }
+
+.Start-Bootstrap:hover{
+    color: #28a745;
+
+
+}
+
+/* COPYRIGHT */
 
 .Copyright{
     color: white;
