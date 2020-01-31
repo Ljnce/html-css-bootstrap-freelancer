@@ -11,8 +11,8 @@ header{
     width: 100%;
 }
 
-.title-up{
-    font-size: 20px;
+.font-title-up{
+    font-size: 900px;
 
 }
 .start{
@@ -76,8 +76,6 @@ li:nth-child(2+1){
     color: #2c3e50;
 }
 
-/* ADDRESS LINE */
-
 .hr-long::after{
     content: '';
     width: 100%;
@@ -104,6 +102,9 @@ h3{
     font-size: 40px;
 }
 
+.font-title-up{
+    font-size: 80px;
+}
 
 section, form{
     background-color: white;
@@ -113,28 +114,62 @@ section, form{
 
 /* PORTFOLIO */
 
-h2{
+.font-portfolio{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 70px;
     color: #2c3e50;
 }
 
 .image{
     width: 95%;
-    border-radius: 30px;
-    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
-.half-part{
-    padding:30px;
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.immagine:hover .image {
+  background-color: #1abc9c;
+  opacity: 0.3;
+}
+
+.immagine:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 80px;
+  padding: 16px 32px;
+  font-weight: bold;
+}
+
+
+/* ABOUT */
 .part-about{
     background-color: #1abc9c;
 }
 
-.about{
+.font-about{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 80px;
     color: white;
 
 }
@@ -148,7 +183,13 @@ h2{
     padding-bottom: 50px;
     padding-top: 60px;
 }
+/* }CONTACT ME */
 
+.font-contact-me{
+    font-size: 80px;
+}
+
+/* INFO TOP */
 .button{
     border-radius: 10px;
     background-color: #1abc9c;
@@ -168,8 +209,6 @@ h2{
     display: inline-block;
     text-align: center;
 }
-
-/* INFO TOP */
 
 li{
     color:#6c757d;
@@ -221,4 +260,23 @@ h4, h6{
 .Copyright{
     color: white;
     background-color: #1a252f;
+}
+
+
+@media screen and (max-width: 767px){
+    .font-title-up,
+    .font-portfolio,
+    .font-about,
+    .font-contact-me{
+        font-size: 20px;
+    }
+
+    .location,
+    .around-the-web,
+    .about-freelancer{
+        padding-bottom: 40px;
+    }
+
+
+
 }
