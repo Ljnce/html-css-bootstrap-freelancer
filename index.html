@@ -6,12 +6,26 @@
         <title>Bootstrap</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/4cd7baf8bb.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav>
+        <header>
+            <nav class="navbar navbar-default">
             <div class="container-fluid nav">
+            <div class="container navbar-header">
+            </div>
+                <ul class="nav navbar-nav">
+                   <li><a href="#">Start Bootstrap</a></li>
+                   <li><a href="#">PORTFOLIO</a></li>
+                   <li><a href="#">ABOUT</a></li>
+                   <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            </nav>
+            <!-- <div class="container-fluid nav">
+                <div class="container">
                 <div class="text-align">
+                    <div class="row menu">
                 <div class="col-sm-5">
                     <h3 class="start">START BOOTSTRAP</h3>
                 </div>
@@ -26,33 +40,37 @@
                 </div>
                 </div>
             </div>
-        </nav>
-        <header>
+            </div> -->
+        </header>
+<!-- JUMBOTRONE -->
+        <section id="jumbotrone">
             <div class="container">
-                <div class="row">
                     <div class="text-center">
-                    <div class="col-sx-12 col-sm-12">
-                        <img class="smile"src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="">
+                    <div class=" col-sm-12">
+                        <img class="smile center-block" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="">
                         <h1 class="title-up">START BOOTSTRAP</h1>
-                        <i class="fas fa-star"></i>
+                        <div class="hr-white">
+                        <span class="glyphicon glyphicon-star white-star"></span>
+                    </div>
                         <h3 class="title-down">Graphic Artist - Web Designer - Illustrator</h3>
                     </div>
                     </div>
                 </div>
             </div>
-        </header>
-
+        </section>
+<!-- PORTFOLIO -->
         <section class="portfolio">
             <div class="container">
                 <div class="text-center">
                     <div class="col-xs-11 col-sm-6 col-sm-offset-3">
                         <h2>PORTFOLIO</h2>
-                        <i class="fas fa-star"></i>
+                        <div class="hr-dark">
+                        <span class="glyphicon glyphicon-star dark-star"></span>
                     </div>
                 </div>
             </div>
-            <div class="container part-top clearfix">
-                <div class="row">
+            <div class="container part-top">
+                <div class="row blocchi">
                     <div class=" col-sm-4">
                         <img class="image" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
                     </div>
@@ -62,6 +80,12 @@
                     <div class=" col-sm-4">
                         <img class="image"src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
                     </div>
+                    <div class="container half-part">
+                        <div class="col-sm-12">
+                        </div>
+                    </div>
+                    <div class="container part-down">
+                    <div class="row blocchi">
                     <div class=" col-sm-4">
                         <img class="image"src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
                     </div>
@@ -71,17 +95,19 @@
                     <div class="col-sm-4">
                         <img class="image"src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
                     </div>
-
+                </div>
+                </div>
                 </div>
             </div>
         </section>
-
+<!-- ABOUT -->
         <section class="part-about">
             <div class="container">
                 <div class="text-center">
                     <div class="col-sm-4 col-sm-offset-4">
                         <h2 class="about">ABOUT</h2>
-                        <i class="fas fa-star"></i>
+                        <div class="hr-white">
+                        <span class="glyphicon glyphicon-star white-star"></span>
                     </div>
                 </div>
             </div>
@@ -95,61 +121,75 @@
                             </div>
                 </div>
             </div>
-            <div class="container free-download">
-                            <div class="download col-sm-4 col-sm-offset-4">
-                                <i class="icon fas fa-cloud-download-alt"></i>
-                                <p class="icon">Free download</p>
+            <div class="container free-download text-center">
+                            <div class="col-sm-12">
+                                <a href="#" class="button">
+                                    <span class="glyphicon glyphicon-cloud-download"></span> Free Download!</a>
                             </div>
             </div>
         </section>
-
+        <!-- CONTACT ME -->
         <section class="contact-me">
             <div class="container">
                 <div class="text-center">
                     <div class="col-sm-8 col-sm-offset-2">
                         <h2>CONTACT ME</h2>
-                        <i class="fas fa-star"></i>
+                        <div class="hr-dark">
+                        <span class="glyphicon glyphicon-star dark-star"></span>
                     </div>
                 </div>
             </div>
         </section>
-
+<!-- INFO -->
         <form>
             <div class="container">
                 <div class="last col-sm-12">
                     <ul class="list-unstyled">
-                        <li>Name</li>
-                        <li>Email Address</li>
-                        <li>Phone Number</li>
+                        <li >Name</li>
+                        <li class="hr-long"></li>
+                        <li >Email Address</li>
+                        <li class="hr-long"></li>
+                        <li >Phone Number</li>
+                        <li class="hr-long"></li>
                         <li>Message</li>
+                        <li class="hr-long"></li>
                     </ul>
+                    <button type="button" class="btn-lg">SEND</button>
                 </div>
             </div>
         </form>
-
+<!-- COPYRIGHT -->
+<footer>
         <section class="info-bottom">
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-sm-4">
                             <h4>LOCATION</h4>
                             <h6>2215 John Daniel Drive Clark, MO 65243</h6>
-
                         </div>
                         <div class="col-sm-4">
                             <h4>AROUND THE WEB</h4>
-                            <i class="fab fa-facebook"></i>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-twitter-square"></i>
-                            <i class="fab fa-linkedin"></i>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                         <div class="col-sm-4">
                             <h4>ABOUT FREELANCER</h4>
-                            <h6>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap.</h6>
+                            <h6>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#" class="Strart-Bootstrap"> Start Bootstrap</a>.</h6>
 
                         </div>
                     </div>
                 </div>
-
         </section>
+
+        <section class="Copyright">
+            <div class="container text-center">
+                <div class="col-sm-12">
+                    <small>Copyright © Your Website 2019</small>
+                </div>
+            </div>
+        </section>
+    </footer>
     </body>
 </html>
