@@ -30,14 +30,6 @@ li{
     color: white;
 }
 
-li:nth-child(2+1){
-    float: right;
-}
-
-ul.navbar-nav{
-    float: right;
-}
-
 /* JUMBOTRONE */
 #jumbotrone{
     background-color: #1abc9c;
@@ -276,10 +268,9 @@ h4, h6{
 
     .location,
     .around-the-web,
-    .about-freelancer{
+    .about-freelancer,
+    .about-text{
         padding-bottom: 40px;
     }
-
-
 
 }
