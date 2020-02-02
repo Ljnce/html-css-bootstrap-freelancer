@@ -2,6 +2,35 @@
 
 .navbar{
     background-color: #2c3e50;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: #1abc9c;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+nav{
     color:white;
 }
 
@@ -262,7 +291,8 @@ h4, h6{
     .font-title-up,
     .font-portfolio,
     .font-about,
-    .font-contact-me{
+    .font-contact-me,
+    .navbar-brand{
         font-size: 20px;
     }
 
