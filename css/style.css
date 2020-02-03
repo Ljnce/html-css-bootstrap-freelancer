@@ -10,18 +10,22 @@
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }
-.navbar-default .navbar-brand:hover {
-    color: white;
-}
-.navbar-default .navbar-nav > li > a:hover {
+
+.navbar-collapse .navbar-nav > li > a:hover {
     color: #1abc9c;
 }
-.navbar-default .navbar-toggle .icon-bar {
+
+.navbar-inverse .navbar-toggle .icon-bar {
     background-color: white;
 }
-.navbar-default .navbar-toggle {
-    border-color: #1abc9c;
+.navbar-inverse .navbar-toggle {
+    background-color: #1abc9c;
 }
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #236d58;
+}
+
 .navbar-brand{
     font-size: 30px;
 }
@@ -170,9 +174,10 @@ section, form{
 }
 
 .immagine:hover .image {
-  background-color: #1abc9c;
-  opacity: 0.3;
+    background-color:rgb(255,0,0);
+    opacity:0.6;
 }
+
 
 .immagine:hover .middle {
   opacity: 1;
@@ -286,6 +291,7 @@ h4, h6{
     background-color: #1a252f;
 }
 
+/* @MEDIA QUEREY */
 
 @media screen and (max-width: 767px){
     .font-title-up,
@@ -293,7 +299,7 @@ h4, h6{
     .font-about,
     .font-contact-me,
     .navbar-brand{
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .location,
@@ -303,4 +309,7 @@ h4, h6{
         padding-bottom: 40px;
     }
 
+    .title-down{
+        font-size: 25px;
+    }
 }
